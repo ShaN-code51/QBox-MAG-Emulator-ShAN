@@ -7,7 +7,11 @@
 
 For Windows 10/11
 
-Run your MAG/QBox IPTV service on Windows. No physical MAG set-top box required.
+Run your MAG/QBox IPTV service on Windows — no physical MAG set-top box required.
+
+QBox.MAG Emulator ShAN is a MAG/QBox set-top box emulator designed to work with your existing **IPTV/OTT provider service**.
+
+> **Note:** The application does not provide IPTV channels, content, playlists, or portal access. An active IPTV/OTT service and valid portal access from your IPTV provider are required.
 
 ## First launch
 
