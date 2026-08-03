@@ -1,14 +1,5 @@
 # QBox.MAG Emulator ShAN
 
-## Donate
-
-If you find this app useful, consider a donation:
-
-| Coin | Address |
-|---|---|
-| BTC | `1E9jzHK9C3zDGGmiiHmcU4spjRNZgXeCJQ` |
-| USDT (TRC20) | `TMkLqQDgArrPGzov7ZKQFGXbBYWnxqvHt2` |
-
 For Windows 10/11
 
 Desktop emulator of QBox / MAG set-top boxes for OTT portals. It opens a
@@ -190,3 +181,12 @@ The portable executable is written to `dist/QBox.MAG Emulator ShAN.exe`.
 - `preload.js` — device profile and setup bridge;
 - `vlc-engine.js` — optional VLC overlay;
 - `scripts/` — logic tests for the injections.
+
+## Donate
+
+If you find this app useful, consider a donation:
+
+| Coin | Address |
+|---|---|
+| BTC | `1E9jzHK9C3zDGGmiiHmcU4spjRNZgXeCJQ` |
+| USDT (TRC20) | `TMkLqQDgArrPGzov7ZKQFGXbBYWnxqvHt2` |
