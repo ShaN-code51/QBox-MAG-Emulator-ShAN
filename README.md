@@ -1,12 +1,13 @@
 # QBox.MAG Emulator ShAN
 
+<p align="center">
+  <img src="banner.png" alt="QBox MAG Emulator ShAN" width="100%">
+</p>
+
+
 For Windows 10/11
 
-Desktop emulator of QBox / MAG set-top boxes for OTT portals. It opens a
-portal in a fullscreen window, presents itself to the portal as a set-top box
-(QBox / MAG), and protects playback from common streaming issues: it restarts a
-frozen archive stream at the same position, watches for missing audio after a
-restart, and adds optional VLC decoding, mouse-wheel and gamepad navigation.
+Run your MAG/QBox IPTV service on Windows. No physical MAG set-top box required.
 
 ## First launch
 
@@ -48,12 +49,7 @@ server_version = 5.2.1
 language = en
 ```
 
-> ⚠️ Do not publish this file — it contains your MAC address and serial number.
-
 ## Keys
-
-Some keys are handled by the app itself, the rest emulate remote-control buttons
-and are passed to the portal.
 
 ### ⚙️ 1. System keys (app)
 
@@ -128,24 +124,6 @@ and are passed to the portal.
 | `F8` | Manual sound restore |
 | `F9` | Check the stream via VLC |
 
-### 🚀 8. Most useful keys
-
-| Key | Action |
-|---|---|
-| `F4` | EPG |
-| `F8` | Restore sound |
-| `F9` | Open the stream in VLC |
-| `F10` | TV screen |
-| `F11` | Fullscreen |
-| `Ctrl+R` | Reload the portal |
-| `Space` | Pause |
-| `[` / `]` | Switch channels |
-| `I` | Info |
-| `Backspace` | Back |
-| `Esc` | Exit |
-
-Note: `F8` restores sound, the TV guide opens with `F4`.
-
 ## Gamepad and mouse wheel
 
 **Mouse wheel:** in menus — up/down arrows; in the player — disabled (does not
@@ -160,27 +138,10 @@ switch channels).
 - `L3` = Pause, `R3` = Stop;
 - right stick — fast rewind / fast forward.
 
-## VLC overlay
-
-If VLC is installed, TV streams are decoded by libvlc in a native overlay
-window instead of the in-page hls.js player. To disable, set the environment
-variable `USE_VLC=0`.
-
-## Build
-
-```
-pnpm install
-pnpm dist
-```
 
 The portable executable is written to `x64/QBox.MAG Emulator ShAN.exe`.
 
-## Layout
 
-- `main.js` — main process, portal injections, first-launch setup and settings;
-- `preload.js` — device profile and setup bridge;
-- `vlc-engine.js` — optional VLC overlay;
-- `scripts/` — logic tests for the injections.
 
 ## Donate
 
