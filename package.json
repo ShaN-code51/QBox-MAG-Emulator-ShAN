@@ -1,0 +1,26 @@
+{
+  "name": "qbox-mag-emulator-shan",
+  "version": "1.0.0",
+  "description": "Desktop emulator of QBox/MAG set-top boxes for OTT portals",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win portable"
+  },
+  "build": {
+    "appId": "com.shan.qboxmag",
+    "productName": "QBox.MAG Emulator ShAN",
+    "files": ["main.js", "preload.js", "vlc-engine.js"],
+    "win": {
+      "target": ["portable"],
+      "artifactName": "QBox.MAG Emulator ShAN.${ext}"
+    }
+  },
+  "dependencies": {
+    "koffi": "3.1.4"
+  },
+  "devDependencies": {
+    "electron": "^37.0.0",
+    "electron-builder": "^26.0.12"
+  }
+}

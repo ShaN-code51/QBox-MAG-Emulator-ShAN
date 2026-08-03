@@ -1,0 +1,7 @@
+node_modules/
+dist/
+portal/
+.tmp-koffi/
+*.exe
+settings.txt
+DONATE.txt
