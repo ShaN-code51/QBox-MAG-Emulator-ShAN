@@ -1,4 +1,4 @@
-# QBox.MAG Emulator ShAN
+#MAG Emulator
 
 <p align="center">
   <img src="banner.png" alt="QBox MAG Emulator ShAN" width="100%">
