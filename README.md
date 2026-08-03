@@ -173,7 +173,7 @@ pnpm install
 pnpm dist
 ```
 
-The portable executable is written to `dist/QBox.MAG Emulator ShAN.exe`.
+The portable executable is written to `x64/QBox.MAG Emulator ShAN.exe`.
 
 ## Layout
 
